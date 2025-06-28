@@ -1,4 +1,4 @@
-const API_URL = 'https://ai-document-insight-tool-tms8.vercel.app/';
+const API_URL = 'https://ai-document-insight-tool.vercel.app';
 
 export async function uploadResume(file) {
   const formData = new FormData();
