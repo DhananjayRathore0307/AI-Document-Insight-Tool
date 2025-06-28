@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://ai-document-insight-tool-tms8.vercel.app/';
 
 export async function uploadResume(file) {
   const formData = new FormData();
