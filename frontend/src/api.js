@@ -1,4 +1,4 @@
-const API_URL = 'https://ai-document-insight-tool.vercel.app';
+const API_URL = "http://localhost:8000";
 
 export async function uploadResume(file) {
   const formData = new FormData();

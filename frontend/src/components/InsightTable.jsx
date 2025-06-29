@@ -26,7 +26,7 @@ const InsightTable = () => {
     if (!confirmed) return;
 
     try {
-      const res = await fetch(`https://ai-document-insight-tool.vercel.app/${id}`, {
+      const res = await fetch(`http://localhost:8000/insights/${id}`, {
         method: "DELETE",
       });
 
